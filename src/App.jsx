@@ -1,6 +1,7 @@
 import "./App.css";
 import NavBAr from "./Components/NavBar/NavBar";
 import PriceOption from "./Components/PriceOption/PriceOption";
+import Rechart from "./Components/Recharts/Rechart";
 
 function App() {
   return <>
@@ -10,6 +11,7 @@ function App() {
 </header>
 <main className="container w-10/12 mx-auto">
 <PriceOption></PriceOption>
+<Rechart></Rechart>
 </main>
 
   </>;
