@@ -6,7 +6,7 @@ export default function Links({ route }) {
     
     <div>
         
-      <li className="text-xl font-bold mr-10">
+      <li className="text-xl font-bold mr-10 hover:bg-orange-200 px-3 py-1 rounded-xl">
         <a href={route.path}>{route.name}</a>
       </li>
     </div>

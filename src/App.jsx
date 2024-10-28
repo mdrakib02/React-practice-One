@@ -1,12 +1,17 @@
 import "./App.css";
 import NavBAr from "./Components/NavBar/NavBar";
-import DaisyNav from "./Components/Daisy-Ui/DaisyNav";
+import PriceOption from "./Components/PriceOption/PriceOption";
 
 function App() {
   return <>
-  <NavBAr></NavBAr>
-  <DaisyNav></DaisyNav>
-  
+
+<header className="Container w-10/12 mx-auto">
+<NavBAr></NavBAr>
+</header>
+<main className="container w-10/12 mx-auto">
+<PriceOption></PriceOption>
+</main>
+
   </>;
 }
 
